@@ -1,14 +1,9 @@
-from pprint import pprint
-import time
-
 import pygame
-from pygame.locals import *
 
-from .cube import Cube
+from src.cube.cube import Cube
 from .move import Move
-from ..scramble.parser import scramble_to_moves, moves_to_scramble
+from ..scramble.parser import moves_to_scramble
 from ..scramble.generator import gen_scramble
-from ..scramble.cleaner import clean_moves
 from .solver import generate_solution
 
 HEIGHT = 1440
