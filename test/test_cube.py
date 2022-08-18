@@ -26,4 +26,4 @@ def test_solve_arbitrary_scrambles():
         cube.do_moves(scramble)
         solution = generate_solution(cube)
         cube.do_moves(solution)
-        assert cu
+        assert cube.is_solved()
