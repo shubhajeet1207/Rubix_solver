@@ -6,9 +6,9 @@ from ..scramble.parser import moves_to_scramble
 from ..scramble.generator import gen_scramble
 from .solver import generate_solution
 
-HEIGHT = 1440
-WIDTH = 2415
-CUBIE_SIZE = 125
+HEIGHT = 790
+WIDTH = 1210
+CUBIE_SIZE = 75
 HORIZONTAL_START = 100
 
 
